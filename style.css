@@ -1,14 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+    * {
+        box-sizing: border-box;
+    }
+
     body {
+      background-image: radial-gradient(#3a155e, #110640, #000000);
       font-family: "PT Serif", serif;
       font-size: 20px;
-      color: #000000;
+      color: #ffffff;
       padding: 2rem;
     }
 
     h1 {
       font-family: "Montserrat", sans-serif;
-      font-size: 60px;
-      color: #392582;
+      font-size: 40px;
+      color: #dfbcf5;
+    }
+
+    a {
+      color: #dfbcf5;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 20px;
+        column-gap: 20px;
+    }
+
+    .navigation {
+        display: inline-grid;
+        grid-template-columns: auto auto auto auto;
+        padding: 20px;
+        column-gap: 20px;
+    }
+
+    .navlet a{
+        font-family: "PT Serif", serif; 
+        font-size: 15px;
+        color: #edf1d0;
+    }
+
+    .pfp {
+        margin: auto;
+        border: 5px solid #ffffff;
+        background-color: #ffffff;
+    }
+
+    @media (max-width: 1050px) {
+        .container {grid-template-columns: auto;}
     }
