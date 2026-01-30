@@ -18,8 +18,22 @@
       color: #dfbcf5;
     }
 
+    h2 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 30px;
+        color: #edf1d0;
+    }
+
     a {
       color: #dfbcf5;
+    }
+
+    .works {
+        padding: 20px; 
+    }
+
+    .contact {
+        padding: 20px; 
     }
 
     .container {
